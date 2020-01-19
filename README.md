@@ -1,3 +1,20 @@
+sudo apt install -y libjpeg62-turbo-dev
+
+sudo apt install -y g++ make libsdl2-dev liba52-dev libmpeg2-4-dev libogg-dev libvorbis-dev libflac-dev libmad0-dev libpng-dev libtheora-dev libfaad-dev libfluidsynth-dev libfreetype6-dev zlib1g-dev libunity-dev checkinstall
+
+git clone https://github.com/scummvm/scummvm.git
+
+cd scummvm
+./configure
+make clean
+make
+sudo checkinstall
+(change version number by "1" during the process
+
+
+
+
+
 # [ScummVM README](https://www.scummvm.org/) · [![Build Status](https://travis-ci.org/scummvm/scummvm.svg?branch=master)](https://travis-ci.org/scummvm/scummvm) [![Translation status](https://translations.scummvm.org/widgets/scummvm/-/scummvm/svg-badge.svg)](https://translations.scummvm.org/engage/scummvm/?utm_source=widget) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md#pull-requests) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/200a9bd3f7a647b48415efb484cc8bdc)](https://www.codacy.com/app/sev-/scummvm?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=scummvm/scummvm&amp;utm_campaign=Badge_Grade)
 
 For more information, compatibility lists, details on donating, the
