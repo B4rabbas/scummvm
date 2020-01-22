@@ -41,6 +41,9 @@ cd grim_mouse
 make clean
 make
 sudo checkinstall
+
+ou pour widescreen module
+git clone --branch side-textures https://github.com/Botje/residualvm.git
 ```
 Tapez "3" et changez le version number par "2.2.0-svn+#DATE" durant le procédé, quand on voit le tableau d'info apparaître, dire oui si demandé de créer un fichier manquant.
 
