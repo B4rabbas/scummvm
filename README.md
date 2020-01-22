@@ -12,7 +12,7 @@ Compiler
   ./configure
   make clean
   make
-  sudo checkinstall
+  checkinstall
 ```
 Tapez "3" et changez le version number par "2.2.0-svn+#DATE" durant le procédé, quand on voit le tableau d'info apparaître, dire oui si demandé de créer un fichier manquant.
 
@@ -26,7 +26,7 @@ Compiler residualvm
   ./configure
   make clean
   make
-  sudo checkinstall
+  checkinstall
 ```
 Tapez "3" et changez le version number par "2.2.0-svn+#DATE" durant le procédé, quand on voit le tableau d'info apparaître, dire oui si demandé de créer un fichier manquant.
 
@@ -40,7 +40,7 @@ Compiler residualvmmouse
   ./configure
   make clean
   make
-  sudo checkinstall
+  checkinstall
 ```
 Tapez "3" et changez le version number par "2.2.0-svn+#DATE" durant le procédé, quand on voit le tableau d'info apparaître, dire oui si demandé de créer un fichier manquant.
 
