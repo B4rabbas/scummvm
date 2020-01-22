@@ -2,7 +2,7 @@ Dependance qui ne marche pas et c'est pas grave : libjpeg62-turbo-dev
 
 Installer les dépendances :
 ```
-  sudo apt install -y g++ make libsdl2-dev liba52-dev libmpeg2-4-dev libogg-dev libvorbis-dev libflac-dev libmad0-dev libpng-dev libtheora-dev libfaad-dev libfluidsynth-dev libfreetype6-dev zlib1g-dev libunity-dev checkinstall
+  sudo apt install -y g++ make libsdl2-dev liba52-dev libmpeg2-4-dev libogg-dev libvorbis-dev libflac-dev libmad0-dev libpng-dev libtheora-dev libfaad-dev libfluidsynth-dev libfreetype6-dev zlib1g-dev libunity-dev checkinstall libsdl-image1.2-dev libsdl-dev
 ```
 
 Compiler
