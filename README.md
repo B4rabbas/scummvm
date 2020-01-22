@@ -7,12 +7,12 @@ Installer les dépendances :
 
 Compiler
 ```
-  git clone https://github.com/scummvm/scummvm.git
-  cd scummvm
-  ./configure
-  make clean
-  make
-  checkinstall
+git clone https://github.com/scummvm/scummvm.git
+cd scummvm
+./configure
+make clean
+make
+sudo checkinstall
 ```
 Tapez "3" et changez le version number par "2.2.0-svn+#DATE" durant le procédé, quand on voit le tableau d'info apparaître, dire oui si demandé de créer un fichier manquant.
 
@@ -21,12 +21,12 @@ Tapez "3" et changez le version number par "2.2.0-svn+#DATE" durant le procédé
 
 Compiler residualvm
 ```
-  git clone https://github.com/residualvm/residualvm.git
-  cd residualvm
-  ./configure
-  make clean
-  make
-  checkinstall
+git clone https://github.com/residualvm/residualvm.git
+cd residualvm
+./configure
+make clean
+make
+sudo checkinstall
 ```
 Tapez "3" et changez le version number par "2.2.0-svn+#DATE" durant le procédé, quand on voit le tableau d'info apparaître, dire oui si demandé de créer un fichier manquant.
 
@@ -35,12 +35,12 @@ Tapez "3" et changez le version number par "2.2.0-svn+#DATE" durant le procédé
 
 Compiler residualvmmouse
 ```
-  git clone https://github.com/B4rabbas/grim_mouse.git
-  cd grim_mouse
-  ./configure
-  make clean
-  make
-  checkinstall
+git clone https://github.com/B4rabbas/grim_mouse.git
+cd grim_mouse
+./configure
+make clean
+make
+sudo checkinstall
 ```
 Tapez "3" et changez le version number par "2.2.0-svn+#DATE" durant le procédé, quand on voit le tableau d'info apparaître, dire oui si demandé de créer un fichier manquant.
 
